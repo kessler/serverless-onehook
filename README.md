@@ -1,8 +1,7 @@
 # serverless one hook
 
-personal module...
-
-easily created plugins without publishing them or assign a hook before and after all existing hooks in serverless
+- easily create plugins without publishing them 
+- assign a hook before and after all existing hooks
 
 `npm i -s @kessler/serverless-onehook`
 
@@ -14,7 +13,7 @@ create a `oneHook.js` at the base of your project:
 ```js
 module.exports = (onehook) => {
     // this module is run in during the construction of the plugin instance
-    // so you can do anything that you would do in a normla sls plugin class
+    // so you can do anything that you would do in a normal sls plugin class
     onehook.commands = { ... }
     onehook.hooks = { ... }
 
@@ -43,3 +42,6 @@ plugins:
 custom:
     hookPath: something relative to project root (sls project roo)
 ```
+
+### hooks reference
+https://gist.github.com/HyperBrain/50d38027a8f57778d5b0f135d80ea406
