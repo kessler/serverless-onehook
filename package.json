@@ -1,15 +1,15 @@
 {
   "name": "@kessler/serverless-onehook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "one hook to rule them all",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-		"type": "git",
-		"url": "https://github.com/kessler/serverless-onehook"
-	},
+    "type": "git",
+    "url": "https://github.com/kessler/serverless-onehook"
+  },
   "author": "Yaniv Kessler",
   "license": "Apache-2.0"
 }
